@@ -10,7 +10,7 @@ body {
   font-size: 16px;
 }
 
-/* reset */
+
 a {
   text-decoration: none;
 }
@@ -46,7 +46,7 @@ main {
 input {
   font-family: inherit;
 }
-/* ukryty nagłówek section one */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -60,7 +60,7 @@ input {
   overflow: hidden;
 }
 
-/* common */ /* MOBILE */
+
 
 .container {
   max-width: 320px;
@@ -68,7 +68,7 @@ input {
   padding: 0 16px;
 }
 
-/* TABLET */
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -76,7 +76,7 @@ input {
   }
 }
 
-/* DESKTOP */
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -84,7 +84,6 @@ input {
   }
 }
 
-/* header MOBILE */
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -131,7 +130,7 @@ input {
 .address {
   display: none;
 }
-/* TABLET header */
+
 
 @media screen and (min-width: 768px) {
   .heroicons-solid-btn {
@@ -202,7 +201,6 @@ input {
   }
 }
 
-/* DESKTOP header*/
 
 @media screen and (min-width: 1158px) {
   .header-logo {
@@ -225,7 +223,6 @@ input {
   }
 }
 
-/* mobile menu */
 
 .mobile-menu {
   position: fixed;
@@ -406,7 +403,7 @@ input {
   background-color: #404bbf;
 }
 
-/* TABLET hero image*/
+
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
@@ -451,7 +448,7 @@ input {
   }
 }
 
-/* DESKTOP  hero image */
+
 
 @media screen and (min-width: 1158px) {
   .hero {
@@ -484,7 +481,7 @@ input {
   }
 }
 
-/* <!-- section one  MOBILE--> */
+
 .one-icon-thumb {
   display: none;
 }
@@ -517,7 +514,7 @@ input {
   color: #434455;
 }
 
-/* TABLET section one*/
+
 
 @media screen and (min-width: 768px) {
   .section-one {
@@ -534,7 +531,7 @@ input {
   }
 }
 
-/* DESKTOP section one */
+
 
 @media screen and (min-width: 1158px) {
   .one {
@@ -567,8 +564,8 @@ input {
     font-weight: 400;
   }
 }
-/* team MOBILE*/
-.team {
+
+.section-two {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #f4f4fd;
@@ -646,7 +643,7 @@ input {
   fill: #f4f4fd;
 }
 
-/* TABLET team*/
+
 
 @media screen and (min-width: 768px) {
   .list-team {
@@ -657,10 +654,10 @@ input {
   }
 }
 
-/* DESKTOP team */
+
 
 @media screen and (min-width: 1158px) {
-  .team {
+  .section-two {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -679,7 +676,7 @@ input {
   display: none;
 }
 
-.portfolio {
+.section-three {
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -730,7 +727,6 @@ input {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* TABLET portfolio*/
 
 @media screen and (min-width: 768px) {
   .list-portfolio {
@@ -746,7 +742,7 @@ input {
   }
 }
 
-/* DESKTOP portfolio */
+
 
 @media screen and (min-width: 1158px) {
   .portfolio {
@@ -791,7 +787,8 @@ input {
   }
 }
 
-/* footer MOBILE */
+
+
 .footer {
   padding-top: 96px;
   padding-bottom: 96px;
